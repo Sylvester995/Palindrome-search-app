@@ -1,0 +1,130 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --dark-grey: #0a0a23;
+  --white: #ffffff; 
+  --button-color: #245953;
+}
+
+body{
+  color:  var(--white);
+  background-color: var(--dark-grey);
+}
+
+
+.main-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: auto;  
+}
+
+h1{
+  text-align: center;
+  margin-left: -20%;
+  margin-bottom: 3%;
+  margin-top: 5%;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.input-button-div{
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: auto;
+  border-radius: 30px;
+  box-shadow: 1px 15px 20px var(--button-color);
+  margin-left: 60%;
+  
+}
+
+.input-paragraph{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: var(--dark-grey);
+}
+
+#text-input{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  width: 65%;
+  height: 15%;
+  margin-top: 30%;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 3px solid var(--dark-grey);  
+}
+
+button{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+  height: auto;
+  margin-left: 70%;
+  margin-bottom: 3px;
+  padding: 2px;
+  border-radius: 20px;
+  border: 0;
+  font-weight: bold;
+  background-color: var(--button-color);
+  color: var(--white);
+  cursor: pointer;
+  box-shadow: 2px 2px 20px var(--dark-grey);
+}
+
+.info-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+  margin-left: 60%;
+  margin-bottom: 5%;
+  color: var(--white);
+  background-color: var(--button-color);
+  width: 70%;
+  height: 200%;
+  border-radius: 30px;
+  box-shadow: 2px 2px 20px var(--white);
+}
+
+.info-div span{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  font-size: 25px;  
+}
+
+#result {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-bottom: 3%;
+    width: auto;
+    height: auto;
+    color: var(--dark-grey);
+    font-size: 18px;
+    font-weight: normal;
+     
+    }
